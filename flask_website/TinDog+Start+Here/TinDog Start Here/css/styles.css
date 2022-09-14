@@ -1,0 +1,141 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color:rgb(210, 65, 89) ;
+    color: #fff;
+  
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    
+    font-weight: bold;
+}
+h2{
+    font-family: "Montserrat,sans-serif";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h3{
+    font-family: "Montserrat,sans-serif";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+p{
+    color: grey;
+}
+.navbar{
+    padding: 0 0 4.5rem ;
+    
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    color: black;
+}
+
+.btn{
+    margin:5% 3% 5% 0 ;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: antiquewhite;
+    position: relative;
+    
+}
+.feature-box{
+    
+    padding: 4.5%;
+    text-align: center;
+}
+.icon{
+    color: orange;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: rgb(223, 168, 96);
+}
+.dog{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    text-align: center;
+    background-color: rgb(223, 168, 96);
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+    background-color: rgb(235, 242, 172);
+}
+.pricing-column{
+    padding: 3% 2%;
+    
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+
+#cta{
+    background-color: rgb(210, 65, 89);
+    text-align: center;
+    padding: 7% 15%;
+    color: white;
+   
+}
+.cta-text{
+    font-family: "Montserrat,sans-serif";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.btn-md{
+    margin: 20px 30px;
+    align-items: center;
+}
+
+#footer{
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
