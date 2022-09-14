@@ -1,3 +1,0 @@
-You have a new reservation request from {{ name }} for {{ description }}:
-{{ message }}
-Reply [accept] or [reject]
